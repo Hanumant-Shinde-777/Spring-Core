@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+G:\Telusko Java\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2536178927.index
+527204653.index
+2770378514.index
+2203274743.index
+4199711277.index
+2031713477.index

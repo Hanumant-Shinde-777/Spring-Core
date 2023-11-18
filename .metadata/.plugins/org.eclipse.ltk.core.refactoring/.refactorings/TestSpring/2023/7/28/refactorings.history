@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;StuidentId&apos; in &apos;Com.SpringCore.TestSpring.Student&apos; to &apos;StudentId&apos;&#x0D;&#x0A;- Original project: &apos;TestSpring&apos;&#x0D;&#x0A;- Original element: &apos;Com.SpringCore.TestSpring.Student.StuidentId&apos;&#x0D;&#x0A;- Renamed element: &apos;Com.SpringCore.TestSpring.Student.StudentId&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;StuidentId&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Com.SpringCore.TestSpring{Student.java[Student^StuidentId" name="StudentId" references="true" setter="false" stamp="1689062979313" textual="false" version="1.0"/>
+</session>
