@@ -11,19 +11,13 @@
 	
 	http://www.springframework.org/schema/tx
 	http://www.springframework.org/schema/tx/spring-tx.xsd
-	">
-	
-	
+	">	
 	<tx:annotation-driven />
-
-
-
-
+	<!-- Base pacakage -->
 	<bean
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource"
 		name="ds">
-
-		
+		<!-- Database Configuration -->
 		<property name="url"
 			value="jdbc:mysql://localhost:3306/shawline" />
 		<property name="username" value="root" />
@@ -46,9 +40,8 @@
 				<prop key=" hiberante.hbm2ddl.auto">update</prop>
 			</props>
 		</property>
-		
-		
-		
+
+		<!-- POJO Class -->
 		<property name="annotatedClasses">
 			<list>
 				<value>
@@ -57,9 +50,9 @@
 			</list>
 		</property>
 	</bean>
-
-
-
+	
+	<!-- injecting the sessionFactory value into the  hibernateTemplate  -->
+	
 	<bean class="org.springframework.orm.hibernate5.HibernateTemplate"
 		name="hibernateTemplate">
 		<property name="sessionFactory" ref="factory"></property>
