@@ -9,11 +9,13 @@ public static void main(String args[]){
  list.add(30);
  list.add(40);
  //System.out.println(list);
-
-
+ 
  list.add(50);
 //System.out.println(list);
-
+//alternate option
+ //pass the integer value to the next parameter after the list
+  ArrayList<Integer> list1= new ArrayList<>();
+		Collections.addAll(list1, 1, 2 ,3, 4, 5,6, 6);
 
  list.add(0,0);
   //System.out.println("old list ");
@@ -23,8 +25,7 @@ public static void main(String args[]){
  newlist.add(18);
  newlist.add(19);
 
-
-  //System.out.println("New list ");
+ //System.out.println("New list ");
  //System.out.println(newlist);
  //System.out.println("Mearge all Element in One list ");
  list.addAll(newlist);
@@ -46,17 +47,13 @@ public static void main(String args[]){
 // newlist.remove(Integer.valueOf(18));
 // System.err.println(newlist);
 
-
 // newlist.set(0, 33);
 //System.out.println(newlist);
-
 
 //System.out.print(newlist.contains(18));
 
 // for(int i=0; i< list.size(); i++){
 //     System.out.println("the element are " + list.get(i));
 // }
-
-
-}    
+  }    
 }
