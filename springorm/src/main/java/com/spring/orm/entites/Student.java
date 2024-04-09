@@ -14,8 +14,7 @@ public class Student {
 	
 	@Column(name = "name")
 	private String studentName;
-	
-	
+		
 	@Column(name = "city")
 	private String studentCity;
 
